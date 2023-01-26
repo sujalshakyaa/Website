@@ -1,0 +1,331 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+.container {
+    width: 90%;
+    margin: auto;
+    
+}
+
+/* ------Header Start------ */
+header {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 75px;
+    
+    
+}
+header .main-header-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header .leftnav{
+    display: flex;
+}
+
+header .leftnav .logo img{
+    height: 44px;
+    margin-top: 14px; 
+    /* background-color: blueviolet; */
+}
+header .centernav{
+    width: 50%;
+    margin-left: auto;
+    
+}
+header .centernav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 77px;
+    
+}
+header .centernav ul li{
+    min-width: 100px;
+    line-height: 75px;
+    text-align: center;
+}
+header .centernav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header .search{
+    line-height: 75px;
+    /* background: red; */
+}
+header .search input{
+    background-color: rgb(189, 189, 189);
+    border-radius: 190px;
+    width: 110px;
+    height: 24px;
+    border: none;
+    outline: none;
+}
+header .search button {
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 100px;
+}
+::placeholder{
+    text-align: center;
+}
+
+/* -------Header End-------- */
+/* ========Main Section====== */
+main {
+    width: 100%;
+    margin: auto;
+    position: relative;
+}
+.maincon{
+    position: relative;
+    height: 580px;
+    /* background-color: brown; */
+}
+
+.maincon img{
+    width: 100%;
+    height: 100%;
+    /* opacity: 90%; */
+}
+.maincon p{
+    color: rgb(211, 211, 211);
+    font-size: 25px;
+    margin-top: -445px;
+    margin-left: 82px;
+    letter-spacing: 0.2em;
+    
+}
+.maincon .ndtext p{
+    color: rgb(211, 211, 211);
+    font-size: 18px;
+    margin-top: 0px;
+    margin-left: 82px;
+    width: 538px;
+    letter-spacing: 0.3em;
+    word-spacing: 0.2em;
+    font-family: sans-serif;
+    
+}
+.maincon .rightcon{
+    /* background-color: brown; */
+    width: 37%;
+    height: 84%;
+    position: relative;
+    margin-top: -304px;
+    margin-left: 777px;
+
+    
+}
+.border {
+    width: 132px;
+    position: absolute;
+    height: 42px;
+    margin-left: 80px;
+    border: 3px solid rgb(146, 146, 146);
+    border-radius: 180px;
+    margin-top: 10px;
+    
+}
+.border p{
+    color: rgb(211, 211, 211);
+    margin-top: 11px;
+    width: 92px;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+/* .border a{
+    color: rgb(211, 211, 211);
+    margin-top: -111px;
+    width: 92px;
+    margin-left: 20px;
+    font-size: 18.5px;
+    font-family: sans-serif;
+    text-decoration: none;
+} */
+/* =========End Main========= */
+
+/* =========Mid Part========== */
+.midpart{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 50px;
+    /* height: 320px; */
+    position: relative;
+    
+}
+.midpart .designcon{
+    
+    width: 90%;
+    height: 100%;
+    /* border: 3px solid black; */
+    margin: auto;
+    display: flex;
+}
+.designcon .leftcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.designcon .leftcon img{
+    height: 100%;
+    width: 80%;
+}
+.designcon .midcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.designcon .midcon img{
+    width: 80%;
+    height: 100%;
+}
+.designcon .rightcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.designcon .rightcon img{
+    width: 80%;
+    height: 100%;
+}
+
+/* ========= End Mid Part========== */
+/* ========Third Part========== */
+.thirdpart{
+    text-align: center;
+    font-size: 38px;
+    margin-top: 50px;
+    /* height: 320px; */
+    position: relative;
+}
+.thirdpart .newarrival{
+    
+    width: 90%;
+    height: 100%;
+    /* border: 3px solid black; */
+    margin: auto;
+    display: flex;
+}
+.newarrival .leftcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.newarrival .leftcon img{
+    height: 100%;
+    width: 80%;
+}
+.newarrival .midcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.newarrival .midcon img{
+    width: 80%;
+    height: 100%;
+}
+.newarrival .rightcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.newarrival .rightcon img{
+    width: 80%;
+    height: 100%;
+}
+
+/* =========Footer========= */
+footer {
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    width: 100%;
+    /* position: relative; */
+    margin-top: 200px;
+    
+    
+}
+.prefootcon {
+    position: relative;
+    /* margin: 90%; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    
+
+}
+.leftprefoot {
+    /* background-color: brown; */
+    height: 60px;
+    width: 105px;
+    margin-top: 30px;
+    
+    
+}
+.leftprefoot img{
+    height: 100%;
+    width: 100%;
+}
+.midprefoot {
+    /* background-color: aqua; */
+    /* height: 75%; */
+    width: 335px;
+    position: relative;
+    left: 90px;
+    margin-top: 25px;
+    
+    
+}
+.midprefoot input{
+    margin-top: 28px;
+    height: 30px;
+    width: 245px;
+    margin-top: -5px;
+    outline: none;
+    position: relative;
+    
+    
+}
+
+.midprefoot p{
+    font-size: 13px;
+    margin-top: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+    
+}
+button{
+    background-color: rgb(75, 75, 75);
+    height: 36px;
+    width: 83px;
+    border: none;
+    position: relative;
+    margin-left: -6px;
+    /* text-align: center; */
+    
+}
+button .submit{
+    color: white;
+}
+footer .mainfooter {
+    background-color: rgb(65, 65, 65);
+    margin-top: -14px;
+}
+.leftfoot {
+    
+
+}
+
+/* =========End Footer===== */
