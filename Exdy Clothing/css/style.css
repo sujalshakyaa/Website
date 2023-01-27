@@ -16,8 +16,6 @@ header {
     background-color: rgb(27, 27, 27);
     width: 100%;
     height: 75px;
-    
-    
 }
 header .main-header-section{
     display: flex;
@@ -35,8 +33,9 @@ header .leftnav .logo img{
     /* background-color: blueviolet; */
 }
 header .centernav{
-    width: 50%;
-    margin-left: auto;
+    width: 40%;
+    margin-left: 220px;
+    /* background-color: aqua; */
     
 }
 header .centernav ul{
@@ -58,23 +57,34 @@ header .centernav ul li a{
 }
 header .search{
     line-height: 75px;
-    /* background: red; */
+    background: red;
+    margin-left: -50px;
 }
 header .search input{
     background-color: rgb(189, 189, 189);
     border-radius: 190px;
-    width: 110px;
+    width: 130px;
     height: 24px;
     border: none;
     outline: none;
 }
-header .search button {
+header .search button{
     background-color: rgb(189, 189, 189);
     border: none;
     border-radius: 100px;
+    height: 20px;
+    width: 30px;
+    
 }
 ::placeholder{
     text-align: center;
+}
+.rightnav button{
+   /* background-color:  rgb(27, 27, 27); */
+   width: 30px;
+}
+.rightnav button .fa-heart::before{
+    color: white;
 }
 
 /* -------Header End-------- */
@@ -207,14 +217,16 @@ main {
     margin-top: 50px;
     /* height: 320px; */
     position: relative;
+    
 }
 .thirdpart .newarrival{
     
-    width: 90%;
+    width: 100%;
     height: 100%;
     /* border: 3px solid black; */
     margin: auto;
     display: flex;
+    /* background-color: gray; */
 }
 .newarrival .leftcon{
     width: 35%;
@@ -319,13 +331,25 @@ button{
 button .submit{
     color: white;
 }
-footer .mainfooter {
+.mainfooter {
     background-color: rgb(65, 65, 65);
     margin-top: -14px;
+    height: 160px;
 }
 .leftfoot {
-    
+    /* background-color: aqua; */
+    width: 225px;
 
+}
+.leftfoot ul {
+
+}
+.leftfoot ul li {
+    list-style: none;
+}
+.leftfoot ul li a{
+    text-decoration: none;
+    color: white;
 }
 
 /* =========End Footer===== */
