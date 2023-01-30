@@ -23,10 +23,6 @@ header .main-header-section{
     
 }
 
-header .leftnav{
-    display: flex;
-}
-
 header .leftnav .logo img{
     height: 44px;
     margin-top: 14px; 
@@ -339,9 +335,6 @@ button .submit{
 .leftfoot {
     /* background-color: aqua; */
     width: 225px;
-
-}
-.leftfoot ul {
 
 }
 .leftfoot ul li {
