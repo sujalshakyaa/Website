@@ -30,7 +30,7 @@ header .leftnav .logo img{
 }
 header .centernav{
     width: 40%;
-    margin-left: 220px;
+    margin-left: 117px;
     /* background-color: aqua; */
     
 }
@@ -53,31 +53,34 @@ header .centernav ul li a{
 }
 header .search{
     line-height: 75px;
-    background: red;
-    margin-left: -50px;
+    margin-left: -210px;
+    /* background-color: red; */
 }
 header .search input{
     background-color: rgb(189, 189, 189);
     border-radius: 190px;
-    width: 130px;
-    height: 24px;
+    width: 128px;
+    height: 28px;
     border: none;
     outline: none;
+    
 }
 header .search button{
     background-color: rgb(189, 189, 189);
     border: none;
     border-radius: 100px;
     height: 20px;
-    width: 30px;
-    
+    width: 22px;
+    margin-left: -128px; 
 }
 ::placeholder{
     text-align: center;
 }
 .rightnav button{
-   /* background-color:  rgb(27, 27, 27); */
+   background-color:  rgb(27, 27, 27);
    width: 30px;
+   line-height: 70px;
+   margin-left: -100px;
 }
 .rightnav button .fa-heart::before{
     color: white;
@@ -127,8 +130,7 @@ main {
     position: relative;
     margin-top: -304px;
     margin-left: 777px;
-
-    
+    /* background-color: red; */
 }
 .border {
     width: 132px;
@@ -140,23 +142,24 @@ main {
     margin-top: 10px;
     
 }
-.border p{
+/* .border p{
     color: rgb(211, 211, 211);
     margin-top: 11px;
     width: 92px;
     margin-left: 20px;
     font-size: 15px;
     font-family: sans-serif;
-}
-/* .border a{
-    color: rgb(211, 211, 211);
+} */
+.border a{
+    color: rgb(180, 180, 180);
     margin-top: -111px;
     width: 92px;
-    margin-left: 20px;
-    font-size: 18.5px;
+    margin-left: 32px;
+    font-size: 16px;
     font-family: sans-serif;
     text-decoration: none;
-} */
+    line-height: 42px;
+}
 /* =========End Main========= */
 
 /* =========Mid Part========== */
@@ -175,6 +178,7 @@ main {
     /* border: 3px solid black; */
     margin: auto;
     display: flex;
+    /* background-color: aqua; */
 }
 .designcon .leftcon{
     width: 35%;
@@ -186,6 +190,13 @@ main {
     height: 100%;
     width: 80%;
 }
+/* .designcon .leftcon .pbox {
+    background-color: aqua;
+    height: 100px;
+} */
+/* .pbox {
+    font-size: 22px;
+} */
 .designcon .midcon{
     width: 35%;
     height: 100%;
@@ -254,7 +265,7 @@ main {
 }
 
 /* =========Footer========= */
-footer {
+.foot {
     background-color: rgb(0, 0, 0);
     height: 120px;
     width: 100%;
@@ -270,6 +281,7 @@ footer {
     margin: auto;
     display: flex;
     height: 100%;
+    /* background-color: aqua; */
     
 
 }
@@ -287,11 +299,12 @@ footer {
 }
 .midprefoot {
     /* background-color: aqua; */
-    /* height: 75%; */
+    height: 68px;
     width: 335px;
-    position: relative;
+    /* position: relative; */
     left: 90px;
     margin-top: 25px;
+    margin-left: 60px;
     
     
 }
@@ -319,30 +332,107 @@ button{
     height: 36px;
     width: 83px;
     border: none;
-    position: relative;
+    /* position: relative; */
     margin-left: -6px;
     /* text-align: center; */
     
 }
 button .submit{
     color: white;
+    cursor: pointer;
 }
-.mainfooter {
+/* ---------mainfoot------- */
+
+footer {
     background-color: rgb(65, 65, 65);
-    margin-top: -14px;
-    height: 160px;
+    margin-top: -16px;
+    height: 270px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* position: relative; */
+    display: flex;
+
 }
 .leftfoot {
-    /* background-color: aqua; */
-    width: 225px;
+    /* background-color: purple; */
+    width: 25%;
+    height: 100%;
+}
+.leftfoot p{
+    color: white;
+    margin-left: 80px;
+    /* font-weight: bold; */
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
 
+}
+.leftfoot ul {
+    margin-left: 40px;
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
 }
 .leftfoot ul li {
     list-style: none;
+    line-height: 30px;
 }
 .leftfoot ul li a{
     text-decoration: none;
     color: white;
 }
+.midfoot {
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.midfoot p{
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
 
+}
+.midfoot ul {
+    /* margin-left: 40px; */
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+}
+.midfoot ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.midfoot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.rightfoot {
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(111, 89, 190); */
+}
+.rightfoot p{
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+
+}
+.rightfoot ul {
+    /* margin-left: 40px; */
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+}
+.rightfoot ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.rightfoot ul li a{
+    text-decoration: none;
+    color: white;
+}
 /* =========End Footer===== */
