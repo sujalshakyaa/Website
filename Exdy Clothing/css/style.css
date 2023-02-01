@@ -54,6 +54,10 @@ header .centernav ul li a{
     text-decoration: none;
     color: white;
 }
+header .centernav ul li a:hover{
+    border-bottom: 2px solid white;
+
+}
 header .search{
     line-height: 75px;
     margin-left: -210px;
@@ -135,8 +139,20 @@ main {
     position: relative;
     margin-top: -304px;
     margin-left: 777px;
+    text-align: center;
+    line-height: 910px;
     /* background-color: red; */
     filter: drop-shadow(0px 2px 5px rgb(0, 0, 0));
+}
+.maincon .rightcon img{
+    cursor: pointer;
+    /* background-color: red; */
+    height: 90%;
+    width: 90%;
+}
+.maincon .rightcon img:hover{
+    transform: scale(1.05);
+    transition: all 0.2s ease;
 }
 .border {
     width: 132px;
@@ -146,18 +162,11 @@ main {
     border: 3px solid rgb(146, 146, 146);
     border-radius: 180px;
     margin-top: 10px;
+    cursor: pointer;
     
 }
-/* .border p{
-    color: rgb(211, 211, 211);
-    margin-top: 11px;
-    width: 92px;
-    margin-left: 20px;
-    font-size: 15px;
-    font-family: sans-serif;
-} */
 .border a{
-    color: rgb(180, 180, 180);
+    color: rgb(201, 201, 201);
     margin-top: -111px;
     width: 92px;
     margin-left: 32px;
@@ -166,44 +175,69 @@ main {
     text-decoration: none;
     line-height: 42px;
 }
+.border:hover {
+    background-color: rgb(58, 58, 58);
+    opacity: 90%;
+}
 /* =========End Main========= */
 
 /* =========Mid Part========== */
 .midpart{
-    text-align: center;
+    /* text-align: center; */
     font-size: 38px;
     margin-top: 50px;
-    /* height: 320px; */
+    /* height: 520px; */
     position: relative;
     
 }
+.midpart p {
+    width: 90%;
+    margin: auto;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;    
+}
 .midpart .designcon{
-    
+    text-align: center;
     width: 90%;
     height: 100%;
-    /* border: 3px solid black; */
     margin: auto;
     display: flex;
-    /* background-color: aqua; */
+    /* background-color: cadetblue; */
 }
 .designcon .leftcon{
     width: 35%;
     height: 100%;
     margin-top: -10px;
+    flex-direction: column;
     /* background-color: brown; */
-    
 }
 .designcon .leftcon img{
     height: 100%;
     width: 80%;
+    /* background-color: rgb(175, 175, 175); */
+    
 }
-/* .designcon .leftcon .pbox {
-    background-color: aqua;
-    height: 100px;
-} */
-/* .pbox {
-    font-size: 22px;
-} */
+.designcon .leftcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+
+.designcon .leftcon .text{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .leftcon .text :nth-child(2) {
+    font-size: 16px;
+}
+.designcon .leftcon .text :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
 .designcon .midcon{
     width: 35%;
     height: 100%;
@@ -212,6 +246,28 @@ main {
 .designcon .midcon img{
     width: 80%;
     height: 100%;
+    /* background-color: cadetblue; */
+}
+.designcon .midcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.designcon .midcon .text2{
+    /* background-color: aqua; */
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .midcon .text2 :nth-child(2) {
+    font-size: 16px;
+    /* font-weight: 550; */
+}
+.designcon .midcon .text2 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+    /* font-weight: 550; */
 }
 .designcon .rightcon{
     width: 35%;
@@ -223,22 +279,47 @@ main {
     height: 100%;
 
 }
+.designcon .rightcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.designcon .rightcon .text3{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .rightcon .text3 :nth-child(2) {
+    font-size: 16px;
+}
+.designcon .rightcon .text3 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
 
 /* ========= End Mid Part========== */
 /* ========Third Part========== */
 .thirdpart{
-    text-align: center;
+    
     font-size: 38px;
     margin-top: 50px;
     /* height: 320px; */
     position: relative;
     
 }
+.thirdpart p {
+    width: 90%;
+    margin: auto;
+    font-size: 32px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    /* background-color: aqua; */
+}
 .thirdpart .newarrival{
-    
+    text-align: center;
     width: 100%;
     height: 100%;
-    /* border: 3px solid black; */
     margin: auto;
     display: flex;
     /* background-color: gray; */
@@ -253,6 +334,24 @@ main {
     height: 100%;
     width: 80%;
 }
+.newarrival .leftcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.newarrival .leftcon .newtext{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.newarrival .leftcon .newtext :nth-child(2) {
+    font-size: 16px;
+}
+.newarrival .leftcon .newtext :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
 .newarrival .midcon{
     width: 35%;
     height: 100%;
@@ -261,6 +360,24 @@ main {
 .newarrival .midcon img{
     width: 80%;
     height: 100%;
+}
+.newarrival .midcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.newarrival .midcon .newtext2{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.newarrival .midcon .newtext2 :nth-child(2) {
+    font-size: 16px;
+}
+.newarrival .midcon .newtext2 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
 }
 .newarrival .rightcon{
     width: 35%;
@@ -271,7 +388,24 @@ main {
     width: 80%;
     height: 100%;
 }
-
+.newarrival .rightcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.newarrival .rightcon .newtext3{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.newarrival .rightcon .newtext3 :nth-child(2) {
+    font-size: 16px;
+}
+.newarrival .rightcon .newtext3 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
 /* =========Footer========= */
 .foot {
     background-color: rgb(0, 0, 0);
@@ -369,6 +503,10 @@ button .submit{
     border: 1px;
     border-radius: 30px;
 }
+.twitter img:hover{
+    opacity: 60% ;
+    
+}
 .facebook {
     height: 100%;
     width: 28%;
@@ -380,7 +518,10 @@ button .submit{
     border: 1px;
     border-radius: 30px;
 }
-
+.facebook img:hover{
+    opacity: 60% ;
+    
+}
 .insta {
     height: 100%;
     width: 28%;
@@ -391,6 +532,10 @@ button .submit{
     height: 100%;
     border: 1px;
     border-radius: 30px;
+}
+.insta img:hover{
+    opacity: 60% ;
+    
 }
 /* ---------mainfoot------- */
 
@@ -406,6 +551,10 @@ footer {
     /* position: relative; */
     display: flex;
 
+}
+.box ul li a:hover{
+    color: rgb(168, 168, 168);
+    text-decoration:underline;
 }
 .leftfoot {
     /* background-color: purple; */
