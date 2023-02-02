@@ -115,97 +115,8 @@ header .search button{
  .rightnav a i:hover{
     color: rgb(100, 100, 100);
  }
-
-
-
 /* -------Header End-------- */
-/* ========Main Section====== */
-main {
-    width: 100%;
-    margin: auto;
-    position: relative;
-}
-.maincon{
-    position: relative;
-    height: 580px;
-    /* background-color: brown; */
-    /* filter: drop-shadow(10px 2px 10px black); */
-}
-
-.maincon img{
-    width: 100%;
-    height: 100%;
-    /* opacity: 90%; */
-    
-}
-.maincon p{
-    color: rgb(211, 211, 211);
-    font-size: 25px;
-    margin-top: -445px;
-    margin-left: 82px;
-    letter-spacing: 0.2em;
-    
-}
-.maincon .ndtext p{
-    color: rgb(211, 211, 211);
-    font-size: 18px;
-    margin-top: 0px;
-    margin-left: 82px;
-    width: 538px;
-    letter-spacing: 0.3em;
-    word-spacing: 0.2em;
-    font-family: sans-serif;
-    
-}
-.maincon .rightcon{
-    /* background-color: brown; */
-    width: 37%;
-    height: 84%;
-    position: relative;
-    margin-top: -304px;
-    margin-left: 777px;
-    text-align: center;
-    line-height: 910px;
-    /* background-color: red; */
-    filter: drop-shadow(0px 2px 5px rgb(0, 0, 0));
-}
-.maincon .rightcon img{
-    cursor: pointer;
-    /* background-color: red; */
-    height: 90%;
-    width: 90%;
-}
-.maincon .rightcon img:hover{
-    transform: scale(1.05);
-    transition: all 0.4s ease;
-}
-.border {
-    width: 132px;
-    position: absolute;
-    height: 42px;
-    margin-left: 80px;
-    border: 3px solid rgb(146, 146, 146);
-    border-radius: 180px;
-    margin-top: 10px;
-    cursor: pointer;
-    
-}
-.border a{
-    color: rgb(201, 201, 201);
-    margin-top: -111px;
-    width: 92px;
-    margin-left: 32px;
-    font-size: 16px;
-    font-family: sans-serif;
-    text-decoration: none;
-    line-height: 42px;
-}
-.border:hover {
-    background-color: rgb(58, 58, 58);
-    opacity: 90%;
-}
-/* =========End Main========= */
-
+/* -------Main-------- */
 /* =========Mid Part========== */
 .midpart{
     /* text-align: center; */
@@ -431,6 +342,8 @@ main {
     font-size: 18px;
     font-weight: 400;
 }
+/* -------End Third part---- */
+/* -------End Main------ */
 /* =========Footer========= */
 .foot {
     background-color: rgb(0, 0, 0);

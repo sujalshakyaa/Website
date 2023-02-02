@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:rgb(80, 80, 80) ;
+}
+.container {
+    background-color: rgb(243, 243, 243);
+    height: 500px;
+    width: 900px;
+    margin: auto;
+    display: flex;
+    border-radius: 9px;
+    margin-top: 50px;
+}
+.leftcon {
+    /* background-color: rgb(243, 243, 243); */
+    height: 100%;
+    width: 50%;
+    
+}
+.leftcon .mid {
+    height: 75%;
+    /* background-color: chartreuse; */
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+}
+.leftcon b{
+    font-size: 24px;
+    color: rgb(15, 15, 15);
+}
+.leftcon p {
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+    margin-top: 10px;
+}
+.leftcon form .email label {
+    font-size: 12px;
+    color: rgb(20, 20, 20);
+}
+.leftcon form .email input {
+    width: 264px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+}
+.leftcon form .password label {
+    font-size: 12px;
+    color: rgb(20, 20, 20);
+}
+.leftcon form .password input {
+    width: 264px;
+    height: 30px;
+    border-radius: 6px;
+    border-style: none;
+    border: 1px solid rgb(165, 165, 165);
+    outline: none;
+}
+.semi {
+    display: flex;
+}
+.semi .info label{
+    font-size: 12px;
+}
+.semi input{
+    accent-color: rgb(53, 53, 53);
+    cursor: pointer;
+}
+.semi .fp{
+    margin-left: 66px;
+}
+.semi .fp a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+.semi .fp a:hover{
+    text-decoration: underline;
+}
+/* =======Sign in====== */
+.signin {
+    height: 30px;
+}
+.signkura {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+}
+.signkura:hover{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    transition: all .4s ease;
+    color: black;
+    font-size: 13px;
+}
+.signin a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    
+}
+.google {
+    height: 30px;
+}
+.googlekura {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid rgb(165, 165, 165);
+}
+.googlekura:hover{
+    background-color: rgb(70, 70, 70);
+    border: 1px solid black;
+    transition: all .4s ease;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+}
+.google a{
+    text-decoration: none;
+    color: rgb(41, 41, 41);
+    font-size: 13px;
+}
+/* ======= End Sign in======= */
+/* ------last------- */
+.last{
+    text-align: center;
+
+}
+.last a{
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+.last a b{
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+} 
+/* ----End last----- */
+
+
+.rightcon {
+    /* background-color: rgb(221, 226, 202); */
+    height: 100%;
+    width: 50%;
+}
+.rightcon img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
