@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    
+}
+/* ------Header Start------ */
+header {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 75px;
+}
+header .main-header-section{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+    
+}
+
+header .leftnav .logo img{
+    height: 44px;
+    margin-top: 14px; 
+    /* background-color: blueviolet; */
+}
+header .centernav{
+    width: 40%;
+    margin-left: 200px;
+    /* background-color: aqua; */
+    
+}
+header .centernav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 77px;
+    font-family: 'Baloo Da 2';
+}
+header .centernav ul li{
+    min-width: 100px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 16.5px;
+    
+}
+header .centernav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header .centernav ul li a:hover{
+    border-bottom: 2px solid rgb(110, 110, 110);
+
+}
+header .search{
+    line-height: 75px;
+    margin-left: -108px;
+    /* background-color: red; */
+}
+header .search input{
+    background-color: rgb(189, 189, 189);
+    border-radius: 190px;
+    width: 128px;
+    height: 28px;
+    border: none;
+    outline: none;
+    
+}
+header .search button{
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 100px;
+    height: 20px;
+    width: 22px;
+    margin-left: -128px; 
+}
+::placeholder{
+    text-align: center;
+}
+.rightnav{
+    min-width: 10px;
+    line-height: 75px;
+    /* background-color: aqua; */
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.heartcon {
+    width: 30%;
+    /* background-color: brown; */
+    text-align: center;
+    font-size: 17px;
+}
+.heartcon a i{
+    color: white;
+}
+.usercon {
+    width: 30%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: 20px;
+}
+.usercon a i{
+    color: white;
+}
+.idkcon{
+    width: 30%;
+    /* background-color: cadetblue; */
+    text-align: center;
+}
+ .rightnav a i:hover{
+    color: rgb(100, 100, 100);
+ }
+ /* --------End Header----- */
+
+/* =========Mid Part========== */
+.midpart{
+    /* text-align: center; */
+    margin-top: 50px;
+    /* height: 520px; */
+    position: relative;
+    
+}
+.midpart p {
+    width: 90%;
+    margin: auto;
+    font-size: 28px;
+    letter-spacing: 0.1em;
+    word-spacing: 0.2em;
+    font-family: 'Baloo Da 2';
+}
+.midpart .designcon{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    /* background-color: cadetblue; */
+}
+.designcon .leftcon{
+    width: 35%;
+    height: 100%;
+    margin-top: -10px;
+    flex-direction: column;
+    /* background-color: brown; */
+}
+.designcon .leftcon img{
+    height: 100%;
+    width: 80%;
+    /* background-color: rgb(175, 175, 175); */
+    
+}
+.designcon .leftcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+
+
+.designcon .leftcon .text{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .leftcon .text :nth-child(2) {
+    font-size: 16px;
+}
+.designcon .leftcon .text :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+.designcon .midcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.designcon .midcon img{
+    width: 80%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.designcon .midcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.designcon .midcon .text2{
+    /* background-color: aqua; */
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .midcon .text2 :nth-child(2) {
+    font-size: 16px;
+    /* font-weight: 550; */
+}
+.designcon .midcon .text2 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+    /* font-weight: 550; */
+}
+.designcon .rightcon{
+    width: 35%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.designcon .rightcon img{
+    width: 80%;
+    height: 100%;
+
+}
+.designcon .rightcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.designcon .rightcon .text3{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.designcon .rightcon .text3 :nth-child(2) {
+    font-size: 16px;
+}
+.designcon .rightcon .text3 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ========= End Mid Part========== */
+
+
+/* -------Header End-------- */

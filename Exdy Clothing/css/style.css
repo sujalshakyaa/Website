@@ -144,6 +144,7 @@ main {
     margin-top: -445px;
     margin-left: 82px;
     letter-spacing: 0.2em;
+    font-family: 'Noto Sans', sans-serif;
     
 }
 .maincon .ndtext p{
@@ -152,9 +153,9 @@ main {
     margin-top: 0px;
     margin-left: 82px;
     width: 538px;
-    letter-spacing: 0.3em;
+    letter-spacing: 0.28em;
     word-spacing: 0.2em;
-    font-family: sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     
 }
 .maincon .rightcon{
@@ -166,7 +167,6 @@ main {
     margin-left: 777px;
     text-align: center;
     line-height: 910px;
-    /* background-color: red; */
     filter: drop-shadow(0px 2px 5px rgb(0, 0, 0));
 }
 .maincon .rightcon img{
@@ -180,29 +180,31 @@ main {
     transition: all 0.4s ease;
 }
 .border {
-    width: 132px;
+    width: 131px;
     position: absolute;
     height: 42px;
     margin-left: 80px;
-    border: 3px solid rgb(146, 146, 146);
+    border: 2px solid rgb(146, 146, 146);
     border-radius: 180px;
     margin-top: 10px;
     cursor: pointer;
     
 }
 .border a{
-    color: rgb(201, 201, 201);
-    margin-top: -111px;
-    width: 92px;
+    color: rgb(185, 185, 185);
+    /* margin-top: -111px; */
+    /* width: 92px; */
     margin-left: 32px;
-    font-size: 16px;
-    font-family: sans-serif;
+    font-size: 14px;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-family: 'Baloo Da 2'; */
     text-decoration: none;
-    line-height: 42px;
+    line-height: 40px;
 }
 .border:hover {
-    background-color: rgb(58, 58, 58);
+    background-color: rgba(58, 58, 58, 0.699);
     opacity: 90%;
+    transform: scale(.95);
 }
 /* =========End Main========= */
 
@@ -220,7 +222,9 @@ main {
     margin: auto;
     font-size: 32px;
     letter-spacing: 0.1em;
-    word-spacing: 0.2em;    
+    word-spacing: 0.2em;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 300;   */
 }
 .midpart .designcon{
     text-align: center;
@@ -324,14 +328,42 @@ main {
 }
 
 /* ========= End Mid Part========== */
+
+/* -------view------ */
+.viewop {
+    margin: auto;
+    width: 150px;
+    height: 40px;
+}
+.viewall {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+    line-height: 40px;
+}
+.viewop a{
+    font-size: 11px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.viewall:hover {
+    background-color: rgb(10, 10, 10);
+    color: white;
+    transition:all .4s ease;
+}
+/* ------end view------- */
+
 /* ========Third Part========== */
 .thirdpart{
-    
     font-size: 38px;
     margin-top: 50px;
     /* height: 320px; */
     position: relative;
-    
+    /* background-color: aqua; */
 }
 .thirdpart p {
     width: 90%;
@@ -339,25 +371,28 @@ main {
     font-size: 32px;
     letter-spacing: 0.1em;
     word-spacing: 0.2em;
+    font-family: 'Noto Sans', sans-serif;
+    /* font-weight: 300; */
     /* background-color: aqua; */
 }
 .thirdpart .newarrival{
     text-align: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: auto;
     display: flex;
     /* background-color: gray; */
+    justify-content: space-between;
 }
 .newarrival .leftcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
     /* background-color: brown; */
     
 }
 .newarrival .leftcon img{
     height: 100%;
-    width: 80%;
+    width: 100%;
 }
 .newarrival .leftcon img:hover {
     transform: scale(1.05);
@@ -378,12 +413,12 @@ main {
     font-weight: 400;
 }
 .newarrival .midcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
     /* background-color: blueviolet; */
 }
 .newarrival .midcon img{
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 .newarrival .midcon img:hover {
@@ -405,12 +440,12 @@ main {
     font-weight: 400;
 }
 .newarrival .rightcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
     /* background-color: cadetblue; */
 }
 .newarrival .rightcon img{
-    width: 80%;
+    width: 100%;
     height: 100%;
 }
 .newarrival .rightcon img:hover {
@@ -431,6 +466,7 @@ main {
     font-size: 18px;
     font-weight: 400;
 }
+
 /* =========Footer========= */
 .foot {
     background-color: rgb(0, 0, 0);
@@ -438,8 +474,6 @@ main {
     width: 100%;
     /* position: relative; */
     margin-top: 200px;
-    
-    
 }
 .prefootcon {
     position: relative;
@@ -449,16 +483,12 @@ main {
     display: flex;
     height: 100%;
     /* background-color: aqua; */
-    
-
 }
 .leftprefoot {
     /* background-color: brown; */
     height: 60px;
     width: 105px;
     margin-top: 30px;
-    
-    
 }
 .leftprefoot img{
     height: 100%;
@@ -472,8 +502,6 @@ main {
     left: 90px;
     margin-top: 25px;
     margin-left: 60px;
-    
-    
 }
 .midprefoot input{
     margin-top: 28px;
@@ -482,8 +510,6 @@ main {
     margin-top: -5px;
     outline: none;
     position: relative;
-    
-    
 }
 
 .midprefoot p{
@@ -492,7 +518,6 @@ main {
     color: white;
     font-family: sans-serif;
     font-style: normal;
-    
 }
 button{
     background-color: rgb(75, 75, 75);

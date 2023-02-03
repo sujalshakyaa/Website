@@ -129,9 +129,10 @@ header .search button{
 .midpart p {
     width: 90%;
     margin: auto;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: 0.1em;
-    word-spacing: 0.2em;    
+    word-spacing: 0.2em;
+    font-family: 'Baloo Da 2';
 }
 .midpart .designcon{
     text-align: center;
@@ -139,10 +140,11 @@ header .search button{
     height: 100%;
     margin: auto;
     display: flex;
+    justify-content: space-between;
     /* background-color: cadetblue; */
 }
 .designcon .leftcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
     margin-top: -10px;
     flex-direction: column;
@@ -175,14 +177,14 @@ header .search button{
     font-weight: 400;
 }
 .designcon .midcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
     /* background-color: blueviolet; */
 }
 .designcon .midcon img{
     width: 80%;
     height: 100%;
-    /* background-color: cadetblue; */
+    /* background-color: rgb(0, 0, 0); */
 }
 .designcon .midcon img:hover {
     transform: scale(1.05);
@@ -206,9 +208,9 @@ header .search button{
     /* font-weight: 550; */
 }
 .designcon .rightcon{
-    width: 35%;
+    width: 32%;
     height: 100%;
-    /* background-color: cadetblue; */
+    /* background-color: rgb(21, 35, 36); */
 }
 .designcon .rightcon img{
     width: 80%;
@@ -235,115 +237,210 @@ header .search button{
 }
 
 /* ========= End Mid Part========== */
-/* ========Third Part========== */
-.thirdpart{
+/* ---------box2------- */
+.mid{
     
     font-size: 38px;
     margin-top: 50px;
     /* height: 320px; */
     position: relative;
+    /* background-color: aqua; */
     
 }
-.thirdpart p {
-    width: 90%;
-    margin: auto;
-    font-size: 32px;
-    letter-spacing: 0.1em;
-    word-spacing: 0.2em;
-    /* background-color: aqua; */
-}
-.thirdpart .newarrival{
+.mid .box2{
     text-align: center;
-    width: 100%;
+    width: 90%;
     height: 100%;
     margin: auto;
     display: flex;
     /* background-color: gray; */
+    justify-content: space-between;
 }
-.newarrival .leftcon{
-    width: 35%;
+.box2 .leftcon{
+    width: 32%;
     height: 100%;
     /* background-color: brown; */
     
 }
-.newarrival .leftcon img{
+.box2 .leftcon img{
     height: 100%;
-    width: 80%;
+    width: 100%;
+    /* background-color: aqua; */
 }
-.newarrival .leftcon img:hover {
+.box2 .leftcon img:hover {
     transform: scale(1.05);
     transition: all 0.5s ease;
 }
-.newarrival .leftcon .newtext{
+.box2 .leftcon .newtext{
     line-height: 35px;
     word-spacing: none;
     letter-spacing: none;
     /* text-align: start; */
     font-family: 'Baloo Da 2';
 }
-.newarrival .leftcon .newtext :nth-child(2) {
+.box2 .leftcon .newtext :nth-child(2) {
     font-size: 16px;
 }
-.newarrival .leftcon .newtext :nth-child(1) {
+.box2 .leftcon .newtext :nth-child(1) {
     font-size: 18px;
     font-weight: 400;
 }
-.newarrival .midcon{
-    width: 35%;
+.box2 .midcon{
+    width: 32%;
     height: 100%;
     /* background-color: blueviolet; */
 }
-.newarrival .midcon img{
-    width: 80%;
+.box2 .midcon img{
+    width: 100%;
     height: 100%;
 }
-.newarrival .midcon img:hover {
+.box2 .midcon img:hover {
     transform: scale(1.05);
     transition: all 0.5s ease;
 }
-.newarrival .midcon .newtext2{
+.box2 .midcon .newtext2{
     line-height: 35px;
     word-spacing: none;
     letter-spacing: none;
     /* text-align: start; */
     font-family: 'Baloo Da 2';
 }
-.newarrival .midcon .newtext2 :nth-child(2) {
+.box2 .midcon .newtext2 :nth-child(2) {
     font-size: 16px;
 }
-.newarrival .midcon .newtext2 :nth-child(1) {
+.box2 .midcon .newtext2 :nth-child(1) {
     font-size: 18px;
     font-weight: 400;
 }
-.newarrival .rightcon{
-    width: 35%;
+.box2 .rightcon{
+    width: 32%;
     height: 100%;
     /* background-color: cadetblue; */
 }
-.newarrival .rightcon img{
-    width: 80%;
+.box2 .rightcon img{
+    width: 100%;
     height: 100%;
 }
-.newarrival .rightcon img:hover {
+.box2 .rightcon img:hover {
     transform: scale(1.05);
     transition: all 0.5s ease;
 }
-.newarrival .rightcon .newtext3{
+.box2 .rightcon .newtext3{
     line-height: 35px;
     word-spacing: none;
     letter-spacing: none;
     /* text-align: start; */
     font-family: 'Baloo Da 2';
 }
-.newarrival .rightcon .newtext3 :nth-child(2) {
+.box2 .rightcon .newtext3 :nth-child(2) {
     font-size: 16px;
 }
-.newarrival .rightcon .newtext3 :nth-child(1) {
+.box2 .rightcon .newtext3 :nth-child(1) {
     font-size: 18px;
     font-weight: 400;
 }
-/* -------End Third part---- */
-/* -------End Main------ */
+/* -----end box2------- */
+/* --------- lasty box3 ------- */
+.lasty{
+    font-size: 38px;
+    margin-top: 50px;
+    /* height: 320px; */
+    position: relative;
+    /* background-color: aqua; */
+    
+}
+.lasty .box3{
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: gray; */
+}
+.box3 .leftcon{
+    width: 32%;
+    height: 100%;
+    /* background-color: brown; */
+    
+}
+.box3 .leftcon img{
+    height: 100%;
+    width: 100%;
+}
+.box3 .leftcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.box3 .leftcon .newtext{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.box3 .leftcon .newtext :nth-child(2) {
+    font-size: 16px;
+}
+.box3 .leftcon .newtext :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+.box3 .midcon{
+    width: 32%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.box3 .midcon img{
+    width: 100%;
+    height: 100%;
+}
+.box3 .midcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.box3 .midcon .newtext2{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.box3 .midcon .newtext2 :nth-child(2) {
+    font-size: 16px;
+}
+.box3 .midcon .newtext2 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+.box3 .rightcon{
+    width: 32%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.box3 .rightcon img{
+    width: 100%;
+    height: 100%;
+}
+.box3 .rightcon img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.box3 .rightcon .newtext3{
+    line-height: 35px;
+    word-spacing: none;
+    letter-spacing: none;
+    /* text-align: start; */
+    font-family: 'Baloo Da 2';
+}
+.box3 .rightcon .newtext3 :nth-child(2) {
+    font-size: 16px;
+}
+.box3 .rightcon .newtext3 :nth-child(1) {
+    font-size: 18px;
+    font-weight: 400;
+}
+/* -----end box3------- */
 /* =========Footer========= */
 .foot {
     background-color: rgb(0, 0, 0);

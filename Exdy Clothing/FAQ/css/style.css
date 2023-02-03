@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    
+}
+/* ------Header Start------ */
+header {
+    background-color: rgb(27, 27, 27);
+    width: 100%;
+    height: 75px;
+}
+header .main-header-section{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: white; */
+    
+}
+
+header .leftnav .logo img{
+    height: 44px;
+    margin-top: 14px; 
+    /* background-color: blueviolet; */
+}
+header .centernav{
+    width: 40%;
+    margin-left: 200px;
+    /* background-color: aqua; */
+    
+}
+header .centernav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-left: 77px;
+    font-family: 'Baloo Da 2';
+}
+header .centernav ul li{
+    min-width: 100px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 16.5px;
+    
+}
+header .centernav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header .centernav ul li a:hover{
+    border-bottom: 2px solid rgb(110, 110, 110);
+
+}
+header .search{
+    line-height: 75px;
+    margin-left: -108px;
+    /* background-color: red; */
+}
+header .search input{
+    background-color: rgb(189, 189, 189);
+    border-radius: 190px;
+    width: 128px;
+    height: 28px;
+    border: none;
+    outline: none;
+    
+}
+header .search button{
+    background-color: rgb(189, 189, 189);
+    border: none;
+    border-radius: 100px;
+    height: 20px;
+    width: 22px;
+    margin-left: -128px; 
+}
+::placeholder{
+    text-align: center;
+}
+.rightnav{
+    min-width: 10px;
+    line-height: 75px;
+    /* background-color: aqua; */
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.heartcon {
+    width: 30%;
+    /* background-color: brown; */
+    text-align: center;
+    font-size: 17px;
+}
+.heartcon a i{
+    color: white;
+}
+.usercon {
+    width: 30%;
+    /* background-color: blueviolet; */
+    text-align: center;
+    font-size: 20px;
+}
+.usercon a i{
+    color: white;
+}
+.idkcon{
+    width: 30%;
+    /* background-color: cadetblue; */
+    text-align: center;
+}
+ .rightnav a i:hover{
+    color: rgb(100, 100, 100);
+ }
+
+
+
+/* -------Header End-------- */
+
+/* -----main-------- */
+.maincon {
+    width: 90%;
+    height: 480px;
+    margin: auto;
+    /* background-color: blue; */
+    display: flex;
+}
+.leftcon {
+    width: 40%;
+    height: 100%;
+    /* background-color: blueviolet; */
+    /* text-align: center; */
+    line-height: 480px;
+}
+.leftcon b{
+    font-size: 40px;
+}
+.rightcon {
+    width: 60%;
+    height: 100%;
+    /* background-color: cadetblue; */
+    /* text-align: center; */
+    line-height: 780px;
+}
+.rightcon img {
+    /* background-color: red; */
+    width: 75%;
+    height: 50%;
+    
+}
+/* -----------end main-------- */
