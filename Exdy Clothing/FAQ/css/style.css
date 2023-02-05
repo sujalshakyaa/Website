@@ -128,27 +128,286 @@ header .search button{
     /* background-color: blue; */
     display: flex;
 }
+.bakas {
+    /* background-color: purple; */
+    display: flex;
+    width: 90%;
+    height: 60%;
+    margin: auto;
+}
 .leftcon {
     width: 40%;
     height: 100%;
     /* background-color: blueviolet; */
-    /* text-align: center; */
-    line-height: 480px;
+    text-align: right;
+    line-height: 280px;
 }
 .leftcon b{
     font-size: 40px;
+    width: 100%;
+    height: 100%;
 }
 .rightcon {
     width: 60%;
     height: 100%;
     /* background-color: cadetblue; */
-    /* text-align: center; */
-    line-height: 780px;
+    text-align: center;
+    line-height:550px;
 }
 .rightcon img {
     /* background-color: red; */
-    width: 75%;
-    height: 50%;
+    width: 90%;
+    height: 90%;
     
 }
 /* -----------end main-------- */
+/* -----accordion------ */
+.accordion {
+    width: 80%;
+    margin: auto;
+  }
+  
+  .accordion-item {
+    background-color: #f2f2f2;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+  }
+  
+  .active, .accordion-item:hover {
+    background-color: #ccc;
+  }
+  
+  .content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f9f9f9;
+  }
+  /* ------end accordion---- */
+/* =========Footer========= */
+.foot {
+    background-color: rgb(0, 0, 0);
+    height: 120px;
+    width: 100%;
+    /* position: relative; */
+    margin-top: 200px;
+}
+.prefootcon {
+    position: relative;
+    /* margin: 90%; */
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.leftprefoot {
+    /* background-color: brown; */
+    height: 60px;
+    width: 105px;
+    margin-top: 30px;
+}
+.leftprefoot img{
+    height: 100%;
+    width: 100%;
+}
+.midprefoot {
+    /* background-color: aqua; */
+    height: 68px;
+    width: 335px;
+    /* position: relative; */
+    left: 90px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+.midprefoot input{
+    margin-top: 28px;
+    height: 30px;
+    width: 245px;
+    margin-top: -5px;
+    outline: none;
+    position: relative;
+}
+
+.midprefoot p{
+    font-size: 13px;
+    margin-top: 4px;
+    color: white;
+    font-family: sans-serif;
+    font-style: normal;
+}
+button{
+    background-color: rgb(75, 75, 75);
+    height: 36px;
+    width: 83px;
+    border: none;
+    /* position: relative; */
+    margin-left: -6px;
+    /* text-align: center; */
+    
+}
+button .submit{
+    color: white;
+    cursor: pointer;
+}
+.rightprefoot {
+    /* background-color: aqua; */
+    height: 33px;
+    width: 135px;
+    left: 90px;
+    margin-top: 42px;
+    margin-left: 560px;
+    display: flex;
+    justify-content: space-between;
+}
+.twitter {
+    height: 100%;
+    width: 28%;
+}
+.twitter img {
+    width: 90%;
+    height: 100%;
+    border: 1px;
+    border-radius: 30px;
+}
+.twitter img:hover{
+    opacity: 60% ;
+    
+}
+.facebook {
+    height: 100%;
+    width: 28%;
+    /* background-color: rgb(212, 145, 145); */
+}
+.facebook img{
+    width: 90%;
+    height: 100%;
+    border: 1px;
+    border-radius: 30px;
+}
+.facebook img:hover{
+    opacity: 60% ;
+    
+}
+.insta {
+    height: 100%;
+    width: 28%;
+    /* background-color: rgb(138, 64, 182); */
+}
+.insta img{
+    width: 90%;
+    height: 100%;
+    border: 1px;
+    border-radius: 30px;
+}
+.insta img:hover{
+    opacity: 60% ;
+    
+}
+/* ---------mainfoot------- */
+
+footer {
+    background-color: rgb(65, 65, 65);
+    margin-top: -16px;
+    height: 300px;
+}
+.box {
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    /* position: relative; */
+    display: flex;
+
+}
+.box ul li a:hover{
+    color: rgb(168, 168, 168);
+    text-decoration:underline;
+}
+.leftfoot {
+    /* background-color: purple; */
+    width: 25%;
+    height: 100%;
+}
+.leftfoot p{
+    color: white;
+    margin-left: 80px;
+    /* font-weight: bold; */
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+
+}
+.leftfoot ul {
+    margin-left: 40px;
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+}
+.leftfoot ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.leftfoot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.midfoot {
+    width: 25%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.midfoot p{
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+
+}
+.midfoot ul {
+    /* margin-left: 40px; */
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+}
+.midfoot ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.midfoot ul li a{
+    text-decoration: none;
+    color: white;
+}
+.rightfoot {
+    width: 25%;
+    height: 100%;
+    /* background-color: rgb(111, 89, 190); */
+}
+.rightfoot p{
+    color: white;
+    margin-left: 40px;
+    font-size: 30px;
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+
+}
+.rightfoot ul {
+    /* margin-left: 40px; */
+    font-family: 'Baloo Da 2';
+    font-weight: 400;
+}
+.rightfoot ul li {
+    list-style: none;
+    line-height: 30px;
+}
+.rightfoot ul li a{
+    text-decoration: none;
+    color: white;
+}
+/* =========End Footer===== */
