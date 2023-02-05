@@ -235,6 +235,15 @@ header .search button{
     font-size: 18px;
     font-weight: 400;
 }
+main img:hover {
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+    background-color: rgb(201, 201, 201);
+}
+main img{
+    background-color: rgb(235, 235, 235);
+    border-radius: 8px;
+}
 
 /* ========= End Mid Part========== */
 /* ---------box2------- */
